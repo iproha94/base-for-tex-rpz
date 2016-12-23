@@ -1,0 +1,37 @@
+\documentclass[utf8x, 12pt]{G7-32} 
+
+\include{preamble.inc}
+\include{listings.inc}
+\include{macros.inc}
+
+\begin{document}
+
+\frontmatter 
+
+\include{00-title}
+
+\tableofcontents
+\setcounter{page}{3}
+\include{10-intro}
+
+\mainmatter
+
+\include{20-analysis}
+\include{30-design}
+\include{40-implementation}
+
+\backmatter
+
+\include{80-conclusion}
+
+\bibliographystyle{gost780u}
+\bibliography{index}
+
+\appendix
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
