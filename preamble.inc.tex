@@ -58,3 +58,10 @@ citecolor=black, menucolor=black, filecolor=black,
 \usepackage[justification=centering]{caption}
 
 \usepackage{underscore}
+
+\usepackage{nomencl}
+\makenomenclature
+% Изменение заголовка перечня
+\renewcommand{\nomname}{Перечень условных обозначений}
+% Позволяет одновременно печатать условное обозначение в тексте документа и добавлять его в перечень
+\newcommand*{\nom}[2]{#1\nomenclature{#1}{#2}}
