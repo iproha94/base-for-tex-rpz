@@ -7,15 +7,16 @@
 \begin{document}
 
 \frontmatter 
+\pagestyle{empty}
 
-\include{00-title}
-
-\tableofcontents
-\setcounter{page}{3}
-
-\printnomenclature[5em]
-
-\include{10-intro}
+\include{00-title} % (1 страница)
+%ТЗ  (2-3 страницы)
+%календарный план  (4 страница)
+\include{10-abstract}% (5 страница)
+\tableofcontents % (6-7 страница)
+\printnomenclature[5em] % (8 страница)
+\setcounter{page}{8}
+\include{10-intro} % (9 страница)
 
 \mainmatter
 
